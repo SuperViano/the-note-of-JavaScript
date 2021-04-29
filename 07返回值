@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>返回值</title>
+    <script>
+        /*
+        创建一个函数，用来计算三个数的和
+        可以使用return来设置函数的返回值
+        语法：
+        return 值
+        return后鹅值将会作为函数的执行结果返回
+
+        return之后的语句就不会再执行了。因为return代表结束
+
+        如果return语句后不跟任何值，则会返回undefined
+        如果不写return，函数也会返回一个undefined
+         */
+        function sum(a, b, c) {
+            // alert(a + b + c);
+            var d = a+ b+ c;
+            return d;
+            alert("Hello");
+        }
+        var res = sum(1,2,4);
+        alert(res);
+
+        var resa = alert("hello")
+        alert(resa);
+        //说明alert没有返回值
+    </script>
+</head>
+<body>
+
+</body>
+</html>
